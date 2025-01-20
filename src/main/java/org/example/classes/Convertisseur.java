@@ -9,17 +9,14 @@ public class Convertisseur {
         System.out.println("1:Longeur , 2:Poids , 3:quantité");
         option = sc.nextInt();
         switch (option) {
-            case 1:
-                new Metre();
-                break;
+           case 1:
+                Metre.main();break;
             case 2:
-                new Litre();
-                break;
+                Gramme.main();break;
             case 3:
-                new Gramme();
-                break;
+                Litre.main();break;
             default:
-                System.out.println(" recommencer😒😒😒😒😒");
+                System.out.println(" Entrer votre choix entre 1;2;3 ");
         }
     }
 }
